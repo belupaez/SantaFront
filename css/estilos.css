@@ -1,11 +1,52 @@
-body {background-image: url(../imagenes/fondo2.jpg); background-size: cover; text-align: center;}
+body {background-image: url(../imagenes/fondo2.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;}
 
-.titulo {font-size: xxx-large; background-color: white;}
+header {background-color: black;}
 
-.subtitulo {font-style: italic; font-size: xx-large; color: red; background-color: white;}
+nav {background-color: #F7F2D4;
+    font-size: xx-large;
+    font-family: monospace;
+    font-variant: small-caps;
+    }
 
-.subtitulo2 {font-family: inherit; color: red; text-decoration: underline; font-size: x-larger}
+.encabezado{background-color: white}
+
+.tituloprincipal {font-size: xxx-large;
+                  text-decoration: underline;}
+
+.titulo {font-weight:bolder;
+        font-size: xxx-large;
+        text-decoration: underline;
+        background-color: #F7F2D4}
+
+.subtitulo {font-style: italic;
+           font-size: xxx-large;
+           color: red;}
+
+.subtitulo2 {font-family: inherit;
+            color: red;
+            text-decoration: underline;
+            font-size: xx-larger;}
 
 .historia {font-family: fantasy;}
 
-.listas {font-family: inherit; font-size: larger; text-align: left; font-weight: bold;}
+.listas {font-family: inherit;
+        font-size: larger;
+        text-align: left;
+        font-weight: bold;}
+
+.alineado {float: right;}
+
+.seguinos {color: white;
+        font-size: xx-larger;
+      font-family: monospace;}
+
+.iconowhats {width: 100px;
+             position: fixed;
+             bottom: 20px;
+           right: 20px;}
+
+footer {background-color: black;
+      }
