@@ -1,47 +1,73 @@
-body {background-image: url(../imagenes/fondo2.jpg);
-      background-size: cover;
-      background-attachment: fixed;
-      text-align: center;}
 
-header {background-color: black;}
+header {background-image: url(../imagenes/fondobanner.png);
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: wrap;}
 
 nav {background-color: #F7F2D4;
     font-size: xx-large;
     font-family: monospace;
     font-variant: small-caps;
-    }
+    display: flex;
+    justify-content: space-around;}
 
-.encabezado{background-color: white}
+body {background-image: url(../imagenes/fondo2.jpg);
+              background-size: cover;
+              background-attachment: fixed;
+              text-align: center;}
 
-.tituloprincipal {font-size: xxx-large;
+.titulopagina {color:white;
+              font-size: 90px;
+            width: 400px}
+
+.redes {width: 30%;}
+
+.encabezado{background-color: white;}
+
+.tituloprincipal {font-size: 60px;
                   text-decoration: underline;}
 
 .titulo {font-weight:bolder;
         font-size: xxx-large;
         text-decoration: underline;
-        background-color: #F7F2D4}
+        background-color: #F7F2D4;}
 
 .subtitulo {font-style: italic;
            font-size: xxx-large;
            color: red;}
 
-.subtitulo2 {font-family: inherit;
+.section2 {display: flex;
+          justify-content: center;
+        flex-wrap: wrap;}
+
+          .subtitulo2 {font-family: inherit;
             color: red;
             text-decoration: underline;
             font-size: xx-larger;}
 
-.historia {font-family: fantasy;}
+            .historia {font-family: fantasy;
+          width: 500px;
+         display: flex;
+        align-self: center;}
 
-.listas {font-family: inherit;
+.section3 {display: flex;
+          justify-content: center;
+        flex-wrap: wrap;}
+
+        .listas {font-family: inherit;
         font-size: larger;
         text-align: left;
         font-weight: bold;}
 
-.alineado {float: right;}
+.section4 {display: flex;
+          justify-content: space-around;
+        flex-wrap: wrap;}
 
-.seguinos {color: white;
-        font-size: xx-larger;
-      font-family: monospace;}
+          .conoce {display: flex;
+                  justify-content: flex-start;}
+
+.alineado {float: right;}
 
 .iconowhats {width: 100px;
              position: fixed;
@@ -49,4 +75,19 @@ nav {background-color: #F7F2D4;
            right: 20px;}
 
 footer {background-color: black;
-      }
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      flex-wrap: wrap;}
+
+        .seguinos {align-self: flex-start;
+                   color: white;
+                  font-size: xx-larger;
+                font-family: monospace;}
+
+
+
+.desarrollador {color:white;
+              font-size: large;
+              text-align: right;
+              width: 25%;}
