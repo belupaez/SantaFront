@@ -1,5 +1,16 @@
 
+@font-face {font-family:"lucida";
+src: url("../fonts/lucidacalig.ttf") format("truetype");}
+
+@font-face {font-family: "book"; src: url("../fonts/book.ttf") format("truetype");}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
 header {background-image: url(../imagenes/fondobanner.png);
+        background-size: cover;
         display: flex;
         justify-content:space-around;
         align-items: center;
@@ -12,42 +23,51 @@ nav {background-color: #F7F2D4;
     display: flex;
     justify-content: space-around;}
 
+nav:hover {background-color: black;}
+
+a:hover {color:white;}
+:link {color:black;}
+:visited {color:#95431A;}
+
 body {background-image: url(../imagenes/fondo2.jpg);
               background-size: cover;
               background-attachment: fixed;
               text-align: center;}
 
-.titulopagina {color:white;
-              font-size: 90px;
-            width: 400px}
+.titulopagina {font-family: 'Abril Fatface', cursive;
+              color:white;
+              font-size: 16vh;
+            width: 40vw;}
 
-.redes {width: 30%;}
+.redes {width: 30vw;}
 
 .encabezado{background-color: white;}
 
-.tituloprincipal {font-size: 60px;
+.tituloprincipal {font-family: 'Abril Fatface', cursive;
+                  font-size: 10vh;
                   text-decoration: underline;}
 
-.titulo {font-weight:bolder;
-        font-size: xxx-large;
+.titulo {font-family: "Abril Fatface", cursive;
+        font-weight:bolder;
+        font-size: 8vh;
         text-decoration: underline;
         background-color: #F7F2D4;}
 
-.subtitulo {font-style: italic;
-           font-size: xxx-large;
+.subtitulo {font-family:"lucida";
+           font-size: xx-large;
            color: red;}
 
 .section2 {display: flex;
           justify-content: center;
         flex-wrap: wrap;}
 
-          .subtitulo2 {font-family: inherit;
+          .subtitulo2 {font-family: "book";
             color: red;
             text-decoration: underline;
-            font-size: xx-larger;}
+            font-size: 5vh;}
 
             .historia {font-family: fantasy;
-          width: 500px;
+          width: 40vw;
          display: flex;
         align-self: center;}
 
@@ -55,26 +75,42 @@ body {background-image: url(../imagenes/fondo2.jpg);
           justify-content: center;
         flex-wrap: wrap;}
 
-        .listas {font-family: inherit;
+        .listas {font-family: "book";
         font-size: larger;
         text-align: left;
         font-weight: bold;}
 
 .section4 {display: flex;
           justify-content: space-around;
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+        padding:2%;}
 
-          .conoce {display: flex;
-                  justify-content: flex-start;}
+          .conoce {font-family: 'Bangers', cursive;
+                  font-size: 6vh;
+                  display: flex;
+                  justify-content: flex-start;
+                padding-left: 5vw;}
 
 .alineado {float: right;}
 
-.iconowhats {width: 100px;
+.section2.1 {display: flex;
+           justify-content: center;
+            flex-wrap: wrap;}
+
+.lorem {font-family: fantasy;
+        text-align: center;
+        display: flex;
+       justify-content: center;
+       padding-left: 20vw;
+       padding-right: 20vw;}
+
+.iconowhats {width: 5vw;
              position: fixed;
              bottom: 20px;
            right: 20px;}
 
 footer {background-color: black;
+        padding: 1%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -90,4 +126,4 @@ footer {background-color: black;
 .desarrollador {color:white;
               font-size: large;
               text-align: right;
-              width: 25%;}
+              width: 25vw;}
