@@ -9,8 +9,8 @@ src: url("../fonts/lucidacalig.ttf") format("truetype");}
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 
-header {background-image: url(../imagenes/fondobanner.png);
-        background-size: cover;
+header {background-color: black;
+        background-size: 100%;
         display: flex;
         justify-content:space-around;
         align-items: center;
@@ -30,16 +30,18 @@ a:hover {color:white;}
 :visited {color:#95431A;}
 
 body {background-image: url(../imagenes/fondo2.jpg);
-              background-size: cover;
+              background-size: 100%;
               background-attachment: fixed;
               text-align: center;}
 
 .titulopagina {font-family: 'Abril Fatface', cursive;
               color:white;
               font-size: 16vh;
-            width: 40vw;}
+            }
 
-.redes {width: 30vw;}
+.redes {display: flex;
+        justify-content: space-around;
+        }
 
 .encabezado{background-color: white;}
 
