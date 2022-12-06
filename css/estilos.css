@@ -92,6 +92,9 @@ body {background-image: url(../imagenes/fondo2.jpg);
                   justify-content: flex-start;
                 padding-left: 5vw;}
 
+          .conocevaso {display: flex;
+                justify-content: space-around;}
+
 .alineado {float: right;}
 
 .section2.1 {display: flex;
@@ -128,3 +131,25 @@ footer {background-color: black;
               font-size: large;
               text-align: right;
               width: 25vw;}
+
+@media (max-width:575px)
+{.titulopagina {display:none;}
+}
+
+@media (max-width: 768px)
+{body {background-image: url(../imagenes/fondo1.jpg);}
+}
+
+@media (min-widht: 991px)
+{.historia {text-align: justify;}}
+
+@media (max-width: 575px)
+{.amargoetiqueta {display: none;}}
+
+@media (min-width: 575px)
+{.amargoetiqueta2 {display: none;}}
+
+@media (min-width: 575px)
+{.vaso {display:none;}
+
+}
